@@ -1,0 +1,14 @@
+{
+  "name": "@mognar/bar-chart-race",
+  "main": "ca1af54549d84f98@591.js",
+  "version": "591.0.0",
+  "homepage": "https://observablehq.com/@mognar/bar-chart-race",
+  "author": {
+    "name": "mognar",
+    "url": "https://observablehq.com/@mognar"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
