@@ -81,14 +81,14 @@ path.domain{
       class: 'title',
       y: 24
     })
-    .html('Top 20 terms used to index Commons Written Questions');
+    .html('Top 20 terms used to index Parliamentary material');
   
   let subTitle = svg.append('text')
     .attrs({
       class: 'subTitle',
       y: 55
     })
-    .html('2015-16 session to present');
+    .html('December 2019 - March 2020');
   
   let caption = svg.append('text')
     .attrs({
@@ -354,11 +354,11 @@ path.domain{
         .remove();
     
     //changing yeartext based on yearyearText.html();
-    if(year == 2017) yearText.html(year+"-2019")
-    if(year == 2016) yearText.html(year+"-2017")
-    if(year == 2015) yearText.html(year+"-2016")
+    if(year == 2019) yearText.html("Dec 19 - Jan 20")
+    if(year == 2020) yearText.html("Feb 20 - Mar 20")
+   
     
-    if(year == 2017) ticker.stop();
+    if(year == 2020) ticker.stop();
     year = year + 1;
   },tickDuration);
 
