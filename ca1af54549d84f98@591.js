@@ -369,7 +369,7 @@ path.domain{
 600
 )});
   main.variable(observer("brandData")).define("brandData", ["d3"], function(d3){return(
-d3.csv('https://raw.githubusercontent.com/Mognar/parly-data/master/wpqsubjectstop20.csv')
+d3.csv('https://raw.githubusercontent.com/Mognar/barchartrace/master/topterms1920.csv')
 )});
   main.variable(observer("halo")).define("halo", function(){return(
 function(text, strokeWidth) {
