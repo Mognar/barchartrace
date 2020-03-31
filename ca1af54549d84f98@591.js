@@ -103,7 +103,7 @@ path.domain{
   
   
 
-  let year = 2015
+  let year = 2019
   
   brandData.forEach(d => {
     d.value = +d.value,
@@ -354,6 +354,7 @@ path.domain{
         .remove();
     
     //changing yeartext based on yearyearText.html();
+    if(year == 2018) yearText.html("Dec 19 - Jan 20")
     if(year == 2019) yearText.html("Dec 19 - Jan 20")
     if(year == 2020) yearText.html("Feb 20 - Mar 20")
     if(year == 2021) yearText.html("Feb 20 - Mar 20")
