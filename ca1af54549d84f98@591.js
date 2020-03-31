@@ -58,7 +58,7 @@ path.domain{
 </style>`
 )});
   main.variable(observer("tickDuration")).define("tickDuration", function(){return(
-5000
+3000
 )});
   main.variable(observer("top_n")).define("top_n", function(){return(
 20
@@ -356,9 +356,9 @@ path.domain{
     //changing yeartext based on yearyearText.html();
     if(year == 2019) yearText.html("Dec 19 - Jan 20")
     if(year == 2020) yearText.html("Feb 20 - Mar 20")
-   
+    if(year == 2021) yearText.html("Feb 20 - Mar 20")
     
-    if(year == 2020) ticker.stop();
+    if(year == 2021) ticker.stop();
     year = year + 1;
   },tickDuration);
 
